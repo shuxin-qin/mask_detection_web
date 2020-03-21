@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <title>人脸口罩检测</title>
+    <style type="text/css">
+        body{text-align:center}
+    </style>
+    <script src="js/tfjs.min.js"></script>
+</head>
+
+<body>
+    <p align="center">
+        <span style="font-weight:bold;color:black;font-size:20px;">人脸口罩检测</span>
+    </p>
+    <div style="position: absolute; left: 50%;">
+        <div id="webcam-wrapper" style="position:relative; left:-50%;">
+            <video id="webcam" autoplay playsinline muted ></video>
+        </div>
+    </div>
+    <script src="js/detection.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
